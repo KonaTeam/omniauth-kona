@@ -53,7 +53,7 @@ You can connect your app to Kona's sandbox environment for testing purposes. Fir
 
 The Kona OmniAuth strategy returns the following information
 
-```json
+```
     {
       "provider":"kona",
       "uid":integer,
