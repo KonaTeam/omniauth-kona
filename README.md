@@ -1,8 +1,8 @@
-[ ![Codeship Status for ronaldsalas/omniauth-kona](https://codeship.com/projects/4bb85690-450f-0133-7583-6641cf1712e7/status?branch=master)](https://codeship.com/projects/104599)
-
 # OmniAuth Kona
 
 OmniAuth strategy for authenticating your users using Kona.
+
+[ ![Codeship Status for ronaldsalas/omniauth-kona](https://codeship.com/projects/4bb85690-450f-0133-7583-6641cf1712e7/status?branch=master)](https://codeship.com/projects/104599)
 
 ## Installation
 
