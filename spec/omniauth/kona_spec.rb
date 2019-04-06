@@ -6,16 +6,17 @@ describe OmniAuth::Strategies::Kona do
   end
 
   context 'client options' do
+    BASE_DOMAIN = "io.kona.com"
     it 'has correct Kona site' do
-      expect(kona.options.client_options.site).to  eq 'https://io.kona.com'
+      expect(kona.options.client_options.site).to  eq "https://#{BASE_DOMAIN}"
     end
 
     it 'has correct authorization path' do
-      expect(kona.options.client_options.authorize_url).to  eq 'https://io.kona.com/oauth/authorize'
+      expect(kona.options.client_options.authorize_url).to  eq "https://#{BASE_DOMAIN}/oauth/authorize"
     end
 
     it 'has correct token path' do
-      expect(kona.options.client_options.token_url).to  eq 'https://io.kona.com/oauth/token'
+      expect(kona.options.client_options.token_url).to  eq "https://#{BASE_DOMAIN}/oauth/token"
     end
   end
 

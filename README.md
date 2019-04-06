@@ -2,8 +2,6 @@
 
 OmniAuth strategy for authenticating your users using Kona.
 
-[ ![Codeship Status for ronaldsalas/omniauth-kona](https://codeship.com/projects/4bb85690-450f-0133-7583-6641cf1712e7/status?branch=master)](https://codeship.com/projects/104599)
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -91,7 +89,7 @@ We have provided the key `member` under the `extra` hash to identify if user is 
 
 ## Contributing
 
-1. Fork it ( https://github.com/ronaldsalas/omniauth-kona/fork )
+1. Fork it ( <https://github.com/konateam/omniauth-kona/fork> )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

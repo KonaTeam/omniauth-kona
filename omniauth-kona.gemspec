@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ronaldsalas@deltek.com"]
 
   spec.summary       = 'Kona OAuth2 strategy for Omniauth'
-  spec.homepage      = 'https://github.com/ronaldsalas/omniauth-kona'
+  spec.homepage      = 'https://github.com/konateam/omniauth-kona'
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.5'
+  spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.6'
 
   spec.add_development_dependency "bundler", "~> 1.16.2"
   spec.add_development_dependency 'rake'

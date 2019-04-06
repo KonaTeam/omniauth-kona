@@ -3,11 +3,13 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class Kona < OmniAuth::Strategies::OAuth2
+      BASE_DOMAIN = "io.kona.com"
+      
       option :name, "kona"
       option :client_options, {
-                 :site => 'https://io.kona.com',
-                 :authorize_url => 'https://io.kona.com/oauth/authorize',
-                 :token_url => 'https://io.kona.com/oauth/token'
+                 :site => "https://#{BASE_DOMAIN}",
+                 :authorize_url => "https://#{BASE_DOMAIN}/oauth/authorize",
+                 :token_url => "https://#{BASE_DOMAIN}/oauth/token"
                 }
 
       def request_phase
