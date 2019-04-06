@@ -1,7 +1,10 @@
-#Change History
+# Change History
+
+## Version 0.3.1
+* Upgraded omniauth-oauth2 and bundler gem. Updated test to make base domain flexible. Changed reference in new github repo account. Tested against ruby v2.5.5
 
 ## Version 0.3.0
-* Upgraded omniauth-oauth2 and budler gem. Used puma in example instead of webrick. Tested against ruby v2.4.3
+* Upgraded omniauth-oauth2 and bundler gem. Used puma in example instead of webrick. Tested against ruby v2.4.3
 
 ## Version 0.2.0
 * Upgraded omniauth-oauth2 gem
